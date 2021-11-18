@@ -1,4 +1,4 @@
-# MBA-Obfuscator Code and Dataset for ICICS'21
+# MBA Samples and MBA-Obfuscator Code for ICICS'21
 
 MBA-Obfuscator is a tool for generating Non-linear Mixed Boolean-Arithmetic Expressions.
 
@@ -10,9 +10,9 @@ MBA-Obfuscator is a tool for generating Non-linear Mixed Boolean-Arithmetic Expr
 2. numpy: `pip3 install numpy`
 
 
-# Structure
-MBA-Obfuscator's code is in mba_obfuscator,
-MBA-Obfuscator's output samples are in samples.
+## Structure
+MBA-Obfuscator's code is in "mba_obfuscator" folder,
+MBA-Obfuscator's output samples are in "samples" folder.
 
 ### samples
 The files storing non-linear MBA expressions.
@@ -21,3 +21,11 @@ The files storing non-linear MBA expressions.
 
 ### mba-obfuscator
 MBA expression generation's code are in "mba_obfuscator" folder.
+
+
+## License
+This is published under a MIT license (see LICENSE)
+
+
+## Contact
+For any issue, do not hesitate to open an issue/create a pull request on Github.

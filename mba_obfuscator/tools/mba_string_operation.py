@@ -184,7 +184,7 @@ def truthtable_term_list(termList, vnumber=0):
     #empty expression
     if not termList:
         return [0] * 2**vnumber
-    result = np.zeros((2**vnumber,), dtype=np.int)
+    result = np.zeros((2**vnumber,), dtype = int)
     for item in termList:
         itemList = re.split("\*", item)
         #only bitwise expression or constant
